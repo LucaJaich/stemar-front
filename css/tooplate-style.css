@@ -470,6 +470,19 @@ b, strong {
     position: relative;
     bottom: 50px;
   }
+  .text1 { 
+    order: 1;
+  }
+  .foto1 {
+    order: 2;
+  }
+  .text2 {
+    order: 2;
+  }
+  .foto2 {
+    order: 1;
+  }
+  
 }
 @media (max-width: 991px) {
   .full-screen {
@@ -491,6 +504,18 @@ b, strong {
 
   .contact-info {
     padding: 0 2rem;
+  }
+  .text1 { 
+    order: 1;
+  }
+  .foto1 {
+    order: 2;
+  }
+  .text2 {
+    order: 1;
+  }
+  .foto2 {
+    order: 2;
   }
 }
 @media (max-width: 767px) {
@@ -541,6 +566,7 @@ b, strong {
     display: block;
     margin: 10px 0 0 0;
   }
+  
 }
 @media (max-width: 320px) {
   .animated-text {
